@@ -1,7 +1,7 @@
-# Desafio do Programa ONE 
+# Desafio do Programa ONE
 
 <div align="center">
-  <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ25mdW1xMWF3d291a2l5azFxOWpuY3k0OHUya3poZzh0MmI3MGs3YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Pk9n41p2yA7CFGJg60/giphy.gif" width="100" alt="Demonstração">
+  <img src="assets/minha-badge.png" width="200" alt="Minha Badge" /> 
 </div>
 
 ## Sorteador de amigo secreto
@@ -69,13 +69,13 @@ git clone https://github.com/arlissondiogo/secret-friend-app
 
 O código principal está em script.js e é responsável por:
 
-* Manter a lista de amigos em um array:
+- Manter a lista de amigos em um array:
 
-* Adicionar amigos à lista ao clicar no botão.
+- Adicionar amigos à lista ao clicar no botão.
 
-* Atualizar a lista exibida na tela.
+- Atualizar a lista exibida na tela.
 
-* Realizar o sorteio de forma aleatória.
+- Realizar o sorteio de forma aleatória.
 
 _**Abaixo explico a lógica utilizada:**_
 
@@ -152,4 +152,3 @@ function sortearAmigo() {
   alert(`O amigo sorteado é: ${amigoSorteado}`);
 }
 ```
-
